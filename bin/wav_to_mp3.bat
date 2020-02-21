@@ -1,0 +1,1 @@
+for %%i in (*.wav) do lame.exe %%i %%~ni.mp3 & del %%i
